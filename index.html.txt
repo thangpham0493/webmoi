@@ -1,51 +1,77 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang Web Miễn Phí</title>
+    <title>Trang Web Trang Trí</title>
     <style>
+        /* Đặt phông chữ và màu nền cho toàn bộ trang */
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;  /* Màu nền sáng */
+            color: #333;  /* Màu chữ tối */
             margin: 0;
             padding: 0;
         }
+
+        /* Đặt kiểu cho phần tiêu đề */
         header {
-            background-color: #4CAF50;
+            background-color: #4CAF50;  /* Màu nền xanh lá */
             color: white;
             padding: 20px;
             text-align: center;
         }
+
+        /* Đặt kiểu cho phần nội dung chính */
         section {
             padding: 20px;
             text-align: center;
+            background-color: white;  /* Màu nền trắng cho phần nội dung */
+            margin: 20px;
+            border-radius: 8px;  /* Bo góc cho phần nội dung */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Thêm bóng cho phần nội dung */
         }
+
+        /* Đặt kiểu cho phần chân trang */
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #4CAF50;
+            background-color: #4CAF50;  /* Màu nền xanh lá */
             color: white;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
+
+        /* Thêm kiểu cho nút */
+        button {
+            background-color: #008CBA;  /* Màu nền xanh dương */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;  /* Bo góc cho nút */
+        }
+
+        button:hover {
+            background-color: #005f73;  /* Màu nền thay đổi khi di chuột qua nút */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Chào Mừng đến với Trang Web Miễn Phí của Tôi!</h1>
+        <h1>Chào Mừng đến với Trang Web Của Tôi!</h1>
     </header>
 
     <section>
-        <p>Đây là một trang web đơn giản và miễn phí, được tạo ra bằng HTML, CSS và JavaScript.</p>
+        <p>Đây là một trang web với thiết kế đơn giản, đẹp mắt.</p>
         <button onclick="thayDoiNoiDung()">Nhấn vào đây</button>
         <p id="message">Chúc bạn có một ngày tuyệt vời!</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Trang Web Miễn Phí. Mọi quyền được bảo lưu.</p>
+        <p>&copy; 2025 Trang Web Trang Trí. Mọi quyền được bảo lưu.</p>
     </footer>
 
     <script>
