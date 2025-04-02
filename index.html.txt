@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Miễn Phí</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào Mừng đến với Trang Web Miễn Phí của Tôi!</h1>
+    </header>
+
+    <section>
+        <p>Đây là một trang web đơn giản và miễn phí, được tạo ra bằng HTML, CSS và JavaScript.</p>
+        <button onclick="thayDoiNoiDung()">Nhấn vào đây</button>
+        <p id="message">Chúc bạn có một ngày tuyệt vời!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Trang Web Miễn Phí. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <script>
+        function thayDoiNoiDung() {
+            document.getElementById("message").innerHTML = "Cảm ơn bạn đã nhấn nút!";
+        }
+    </script>
+</body>
+</html>
